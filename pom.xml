@@ -42,6 +42,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
 		
 		<!--Swagger-UI dependency-->
 		<dependency>
@@ -58,10 +59,13 @@
 		</dependency>
 		
 		
+=======
+>>>>>>> origin/main
 	</dependencies>
 
 	<build>
 		<plugins>
+<<<<<<< HEAD
 <!--			<plugin>-->
 <!--				<groupId>org.springframework.boot</groupId>-->
 <!--				<artifactId>spring-boot-maven-plugin</artifactId>-->
@@ -104,6 +108,14 @@
 	</build>
 	
 	
+=======
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+>>>>>>> origin/main
 	<repositories>
 		<repository>
 			<id>spring-snapshots</id>

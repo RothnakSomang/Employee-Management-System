@@ -1,5 +1,6 @@
 package net.javaguides.springboot.controller;
 
+<<<<<<< HEAD
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -16,6 +17,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import net.javaguides.springboot.exception.ResourceNotFoundException;
+=======
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+>>>>>>> origin/main
 import net.javaguides.springboot.model.Employee;
 import net.javaguides.springboot.repository.EmployeeRepository;
 
@@ -26,13 +36,17 @@ public class EmployeeController {
 	@Autowired
 	private EmployeeRepository employeeRepository;
 	
+<<<<<<< HEAD
 	//TODO: get all employees
+=======
+>>>>>>> origin/main
 	@GetMapping("/employees")
 	public List<Employee> getAllEmployees(){
 		//TODO get all employee
 		return employeeRepository.findAll();
 	}
 	
+<<<<<<< HEAD
 	//TODO: create employee rest api
 	@PostMapping("/employees")
 	public Employee createEmployee(Employee employee) {
@@ -67,5 +81,7 @@ public class EmployeeController {
 		return ResponseEntity.ok(response);
 	}
 	
+=======
+>>>>>>> origin/main
 	
 }
